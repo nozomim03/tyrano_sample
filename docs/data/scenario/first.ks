@@ -5,11 +5,16 @@
 [wait time=200]
 [freeimage layer="base"]
 
+[position width=1500 height=800 top=560 left=0]
+
+[bg storage=noontown1.jpg]
 「走るか寝るかするメロス」[l][r]
+[chara_new name="yuko" storage="chara.jpg" jname="ゆうこ"]
+[chara_show name="yuko"]
 
 メロスは激怒した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+必ず、かの邪智暴虐の王を除かねばならぬと決意した。[p][r]
 
 (中略)[l][r]
 
