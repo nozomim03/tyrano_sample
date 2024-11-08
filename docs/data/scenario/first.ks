@@ -9,8 +9,8 @@
 
 [bg storage=noontown1.jpg]
 「走るか寝るかするメロス」[l][r]
-[chara_new name="yuko" storage="chara.jpg" jname="ゆうこ"]
-[chara_show name="yuko"]
+
+
 
 メロスは激怒した。[l][r]
 
@@ -21,8 +21,11 @@
 ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
 メロスは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[glink color="red" text="寝る" size=40 x=500 y=250 target=*tag_sleep]
+[glink color="blue" text="走る" size=40 x=500 y=350 target=*tag_run]
+
+
+
 [s]
 
 *tag_sleep
@@ -32,7 +35,7 @@
 [bg storage=sleep.jpg time=500]
 
 メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+勇者は、ひどく赤面した。[r][p]
 
 【 BAD END 】[l][cm]
 
@@ -44,7 +47,7 @@
 
 [cm]
 メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r][p]
 
 【 GOOD END 】[l][cm]
 
